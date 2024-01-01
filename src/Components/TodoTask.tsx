@@ -6,7 +6,15 @@ interface Props {
 }
 
 const TodoTask = ({ task }: Props) => {
-  return <div>{task?.taskName}</div>;
+  return (
+    <div className="task">
+      <div className="content">
+        <span>{task?.taskName}</span>
+        <span>{task?.deadLine}</span>
+      </div>
+      <button>X</button>
+    </div>
+  );
 };
 
 export default TodoTask;
