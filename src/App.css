@@ -82,3 +82,14 @@ body {
   border-right: none;
   background-color: darkcyan;
 }
+
+.task button {
+  flex: 20%;
+  height: 100%;
+  border: none;
+  background-color: tomato;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
